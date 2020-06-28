@@ -45,7 +45,7 @@ Response Body: It return list of all rentals (past and future) of the user
 - DELETE '/api/userRentalDelete/:idCar/:username/:beginDate/:endDate' 
 Request Parameters: idCar, username, Beggining and End Date of a future rental of the user
 Response Body: None               
-POST '/api/userRental/insert'
+- POST '/api/userRental/insert'
 Request Parameters: Username, IdCar, Beginning and End Date of a new Rental after Payment validation
 Response Body: Result of the operation
 
@@ -57,9 +57,6 @@ Response Body: Result of the operation
 
 ## Main React Components
 
-- `ListOfSomething` (in `List.js`): component purpose and main functionality
-
-- `GreatButton` (in `GreatButton.js`): component purpose and main functionality
 
 - Navbar.js : Navbar still present in visitator and user mode, it show LogIn form in first case or a "Welocme Username" Badge with a LogOut Button
 
